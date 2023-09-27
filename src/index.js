@@ -12,7 +12,7 @@ import App from './pages/App'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/repo-name">
       <App />
     </BrowserRouter>
   </Provider>
