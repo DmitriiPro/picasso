@@ -3,8 +3,6 @@ import { Layout } from './Layout'
 import { Post } from './Post'
 import { NoPage } from './NoPage'
 
-import { Navigate } from 'react-router-dom'
-
 export const Router = () => {
   return (
     <Routes>
