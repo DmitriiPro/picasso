@@ -13,9 +13,7 @@ import App from './pages/App'
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <BrowserRouter>
-      
-      
-      
+      <App />
     </BrowserRouter>
   </Provider>
 )
