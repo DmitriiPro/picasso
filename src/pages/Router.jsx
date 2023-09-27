@@ -9,8 +9,8 @@ export const Router = () => {
       <Route path="/">
         <Route index element={<Layout />} />
         <Route path="post/:id" element={<Post />} />
-        <Route path="*" element={<NoPage />} />
       </Route>
+      <Route path="*" element={<NoPage />} />
     </Routes>
   )
 }
