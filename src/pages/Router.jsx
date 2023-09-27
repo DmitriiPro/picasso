@@ -11,7 +11,7 @@ export const Router = () => {
       <Route path="/">
         <Route index element={<Layout />} />
         <Route path="post/:id" element={<Post />} />
-        <Route path="*" element={<Navigate to="." replace />} />
+        <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
   )
